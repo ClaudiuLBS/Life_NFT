@@ -1,0 +1,30 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15em;
+}
+.menu {
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.btn {
+  margin-top: 1em;
+  flex: 1;
+}
+#mintContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#quantity {
+  margin-top: 1em;
+  margin-right: 0.2em;
+  align-self: center;
+  align-content: center;
+  width: 20%;
+}
