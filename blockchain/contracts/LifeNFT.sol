@@ -30,7 +30,7 @@ contract LifeNFT is ERC721A, Ownable {
   function _baseURI() internal view override returns (string memory) {
     return baseURI;
   }
-
+  //set base uri
   function isValid(bytes32[] memory proof, bytes32 leaf) public view returns(bool) {
     return MerkleProof.verify(proof, root, leaf);
   }
