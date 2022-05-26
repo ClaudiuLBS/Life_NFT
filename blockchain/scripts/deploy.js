@@ -4,6 +4,7 @@ const fse = require("fs-extra");
 
 async function main() {
   const root = "0xede2af50216ca16547d7ed4b7cae19dffa880c009a75f5fb69dbf1bf337f036b";
+  
   const LifeNFT = await hre.ethers.getContractFactory("LifeNFT");
   const lifeNFT = await LifeNFT.deploy(root);
   await lifeNFT.deployed();

@@ -6,7 +6,7 @@ import keccak256 from "keccak256";
 import { ethers } from "ethers";
 
 import AppNavBar from "./components/AppNavBar";
-import db from "./firebaseConfig";
+import db from "./firebase";
 import "./App.css";
 
 import { address } from "./address";
