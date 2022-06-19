@@ -8,6 +8,8 @@
 - Whitelisted addresses stored on firebase
 - [Testnet Official Life NFT](https://testnets.opensea.io/collection/life-nft-official)
 
+![alt text](https://i.imgur.com/Au9KLYn.png)
+
 ## Tech
 
 - [React](https://reactjs.org/) - frontend
